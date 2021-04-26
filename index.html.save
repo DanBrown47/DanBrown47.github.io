@@ -1,12 +1,12 @@
-
 <html>
 
 <head>
     <!-- Start cookieyes banner -->
     <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/494de38c0c02f9eebc58bbe8.js"></script>
     <!-- End cookieyes banner --> 
-    <title>Coming Soon</title>  
-   <style>
+	    
+<title>Coming Soon</title>
+    <style>
         body,
         html {
             height: 100% overflow: hidden;
