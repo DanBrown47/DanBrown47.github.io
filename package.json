@@ -1,0 +1,22 @@
+{
+  "name": "danwand",
+  "version": "1.0.2",
+  "description": "A terminal based portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanBrown47/DanBrown47.github.io.git"
+  },
+  "author": "Danwand NS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DanBrown47/DanBrown47.github.io/issues"
+  },
+  "homepage": "https://github.com/DanBrown47/DanBrown47.github.io#readme",
+  "dependencies": {
+    "colorette": "^1.2.2"
+  }
+}
