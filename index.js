@@ -9,7 +9,7 @@ const info = {
   	Github: cyan('DanBrown47'),
   	Twitter: cyan('@danwand47'),
   	LinkedIn: cyan('linkedin.com/in/danwand') + '\n',
-  	Card: white('npx danwand')
+  	Card: white('npx danbrown47')
 }
 
 
