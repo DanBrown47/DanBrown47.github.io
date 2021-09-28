@@ -5,7 +5,7 @@ const head = `${blue(bold('  Danwand NS') + ' /')} ${blue('DanBrown47')} / ${whi
 const info = {
 
 	Email: green('danwand47@gmail.com') + '\n',
-	Work: white(`${red('Wattlecorp CyberSecurity Labs LLP')}, AI Researcher`),
+	Work: white(`${green('Deloitte')}, Associate Security Consultant`),
   	Github: cyan('DanBrown47'),
   	Twitter: cyan('@danwand47'),
   	LinkedIn: cyan('linkedin.com/in/danwand') + '\n',

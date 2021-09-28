@@ -1,94 +1,29 @@
-
 <html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+    </head>
+    <body>
 
-<head>
-    <!-- Start cookieyes banner -->
-    <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/1eff422dea81705c885cafd8.js"></script>
-    <!-- End cookieyes banner -->  
-    <title>Coming Soon</title>  
-   <style>
-        body,
-        html {
-            height: 100% overflow: hidden;
-        }
-        
-        .bgimg {
-            background-image: url('https://www.w3schools.com/w3images/forestbridge.jpg');
-            height: 100%;
-            background-position: center;
-            background-size: cover;
-            position: relative;
-            color: white;
-            font-family: "Courier New", Courier, monospace;
-            font-size: 25px;
-        }
-        
-        .topleft {
-            position: absolute;
-            top: 0;
-            left: 16px;
-        }
-        
-        .bottomleft {
-            position: absolute;
-            bottom: 0;
-            left: 16px;
-        }
-        
-        .middle {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            text-align: center;
-        }
-        
-        hr {
-            margin: auto;
-            width: 40%;
-        }
-    </style>
-</head>
-
-<body>
-    <div class="bgimg">
-        <div class="middle">
-            <h1>I guess I will get some time to complete my portfolio</h1>
-            <hr><br>
-            <div id="time">
-
+        <div class="splash">
+            <pre class="fadeIn term">rook@rougue:~ $</pre>
+        </div>
+        <header><a href="myconfigs.html"><p align="right">Keys</p></a></header>
+        <p> Time aint allowing a designer to design this portfolio stuff, lol</p>
+        <p> I hope I get time to complete my design </p>
+        <p> Everything here is my personal perspective </p>
+        <div class="docker">
+            <div class="GoToCenter">
+                <div id="typewritter">
+                    <span id="pre-typewritter-text">I am </span><span id="typewritter-text"></span>
+                </div>
             </div>
         </div>
-
-    </div>
-    <script>
-        var countDownDate = new Date("Jan 5, 2022 15:37:25").getTime();
-
-
-        var x = setInterval(function() {
-
-
-            var now = new Date().getTime();
-
-
-            var distance = countDownDate - now;
-
-
-            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-            document.getElementById("time").innerHTML = days + "d " + hours + "h " +
-                minutes + "m " + seconds + "s ";
-
-
-            if (distance < 0) {
-                clearInterval(x);
-                document.getElementById("time").innerHTML = "EXPIRED";
-            }
-        }, 1000);
-    </script>
-</body>
-
+        <div id="docker">
+        <div id="bottom">
+        <p> Follow me on <big><a href="https://github.com/DanBrown47"><big>GitHub</big></a></big> </p>
+        </div></div>
+    </body>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.0/typed.min.js" integrity="sha512-zKaK6G2LZC5YZTX0vKmD7xOwd1zrEEMal4zlTf5Ved/A1RrnW+qt8pWDfo7oz+xeChECS/P9dv6EDwwPwelFfQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/script.js"></script>
 </html>
