@@ -128,14 +128,14 @@ var output = ["CPU0 microcode updated early to revision 0x1b, date = 2014-05-29"
 
 
 var typed4 = new Typed('#typewritter-text', {
-  strings: ['a Professional Chess Player', 'an Actor','a DevSecOps Engineer', 'Danwnad NS', 
-  'a Security Analyst', 'a Developer', 'an Engineer',  'an OpenSource Evangelist', 'an Linux Evangelist'],
+  strings: ['a Chess Player', 'an Actor','a DevSecOps Engineer', 'Danwnad N S', 
+  'a Security Analyst', 'a Creative Developer', 'an Engineer', 
+  'an Linux Evangelist'],
   typeSpeed: 10,
   backSpeed: 10,
   smartBackspace: true,
   fadeOut: true,
   
   loop: true,
-  // shuffle: true
 });
   
