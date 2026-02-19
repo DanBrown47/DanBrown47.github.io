@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+<div class="home">
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">{{ site.title }}</h1>
+            <p class="hero-description">{{ site.description }}</p>
+        </div>
+    </section>
+
+    <section class="experience">
+        <h2 class="section-title">Experience</h2>
+        <div class="experience-list">
+            <div class="experience-item">
+                <h3>Associate Security Analyst</h3>
+                <p class="company">Deloitte</p>
+            </div>
+            <div class="experience-item">
+                <h3>Chief Technical Officer</h3>
+                <p class="company">Pygrammers</p>
+            </div>
+            <div class="experience-item">
+                <h3>AI Researcher</h3>
+                <p class="company">Wattlecorp CyberSecurity Labs LLP</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog-section">
+        <h2 class="section-title">Recent Posts</h2>
+        <div class="post-list">
+            {% for post in site.posts limit:6 %}
+            <article class="post-item">
+                <a href="{{ post.url | relative_url }}" class="post-link">
+                    <time class="post-date">{{ post.date | date: "%b %d, %Y" }}</time>
+                    <h3 class="post-title">{{ post.title }}</h3>
+                    {% if post.excerpt %}
+                    <p class="post-excerpt">{{ post.excerpt | strip_html | truncate: 160 }}</p>
+                    {% endif %}
+                </a>
+            </article>
+            {% endfor %}
+        </div>
+        <a href="/blog" class="view-all">View all posts →</a>
+    </section>
+</div>

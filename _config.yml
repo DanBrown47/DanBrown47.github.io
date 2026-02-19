@@ -1,0 +1,36 @@
+# Site settings
+title: Danwand NS
+description: ML Engineer, Security Researcher. Welcome to my personal blog where I share insights on machine learning, data science, and software development.
+author: Dan Brown
+email: your-email@example.com
+url: "https://danbrown47.github.io"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title/
+highlighter: rouge
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:title/
+
+# Exclude files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+
+# Pagination (optional, for later)
+paginate: 10
+paginate_path: "/blog/page:num/"
+
+# Social links
+github_username: DanBrown47
+linkedin_username: danwand
+twitter_username: danwand47
+gitlab_username: DanBrown47
+chess_username: DanBrown47
